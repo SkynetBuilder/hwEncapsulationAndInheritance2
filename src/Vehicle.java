@@ -27,13 +27,7 @@ public abstract class Vehicle implements ServiceStation {
         System.out.println("Меняем покрышку");
     }
 
-    protected void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
 
-    protected void checkTrailer() {
-        System.out.println("Проверяем прицеп");
-    }
 
     protected void commonCheck() {
         System.out.println("Обслуживаем " + modelName);

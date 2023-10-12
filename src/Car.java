@@ -9,4 +9,7 @@ public class Car extends Vehicle {
         commonCheck();
         checkEngine();
     }
+    protected void checkEngine() {
+        System.out.println("Проверяем двигатель");
+    }
 }
